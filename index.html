@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+    integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Ubuntu:ital@1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
@@ -18,15 +20,17 @@
 </head>
 <body>
     <section id="title">
+        <div class="container">
 
         <!-- Nav Bar -->
-        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark ">
             <a class="navbar-brand" href="#">Movers</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto"> <!--ml-auto doesnt work-->
+          
+            <ul class="navbar-nav ms-auto"> <!--ml-auto doesnt work-->
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contact</a>
                 </li>
@@ -54,17 +58,19 @@
     
         <!-- Title -->
     <div class="row">
-        <div class="col-lg-6 col-md-4">
+        <div class="col-lg-6">
             <h1>Meet new and interesting dogs nearby.</h1>
-            <button type="button">Download</button>
-            <button type="button">Download</button>
+            <button type="button" class="btn btn-dark btn-lg"><i class="fab fa-apple"></i>  Download</button>
+            <button type="button" class="btn btn-outline-light btn-lg"><i class="fab fa-google-play"></i> Download</button>
           </div>
+
+
           <div class="col-lg-6">
             <img src="images/iphone6.png" alt="iphone-mockup">
           </div>
     </div>
        
-    
+</div>
       </section>
     
     
